@@ -1,5 +1,5 @@
 .logo-color {
-    color: rgb(109, 109, 255);
+    color: rgb(109, 155, 255);
 }
 .barlinks{
     align-items: center;
@@ -38,6 +38,11 @@ section h1{
     background-repeat: no-repeat;
     height: 500px;
     margin-top: -10%;
+}
+.rate-desc{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -93,6 +98,9 @@ phone:600px;
     .gym-right{
         width: 70%;
     }
+    .rate-desc{
+        font-size: 20px;
+    }
 }
 @media (orientation: landscape) {
     .logo-color{
@@ -104,9 +112,9 @@ phone:600px;
     .barlinks{
         font-size: 15px;
     }
-    section p{
+    .motto{
         text-align: center;
-        color: #B9C7FF;
+        color: #aceb46;
     }
     .gym-right{
         width: 50%;
@@ -122,8 +130,17 @@ phone:600px;
     .barlinks{
         font-size: 15px;
     }
-    section p{
+    .motto{
         text-align: center;
-        color: #B9C7FF;
+        color: #aceb46;
+    }
+    .rate-desc{
+        font-size: 20px;
+    }
+    .rate{
+        padding-top: -60%;
+    }
+    .top-banner{
+        margin-bottom: -30%;
     }
 }
