@@ -80,6 +80,9 @@ phone:600px;
     .barlinks{
         font-size: 20px;
     }
+    .gym-right{
+        width: 70%;
+    }
 }
 @media (orientation: landscape) {
     .logo-color{
@@ -94,6 +97,9 @@ phone:600px;
     section p{
         text-align: center;
         color: #B9C7FF;
+    }
+    .gym-right{
+        width: 30%;
     }
 }
 @media (orientation: portrait) {
