@@ -29,6 +29,11 @@ section h1{
     margin-right: auto;
     width: 90%;
 }
+section{
+    background-image: url("images/bcs-bg-main.png");
+    background-repeat: no-repeat;
+    width: 100
+}
 
 
 
@@ -99,7 +104,7 @@ phone:600px;
         color: #B9C7FF;
     }
     .gym-right{
-        width: 30%;
+        width: 50%;
     }
 }
 @media (orientation: portrait) {
