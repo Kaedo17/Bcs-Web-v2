@@ -24,7 +24,11 @@ section h1{
     color: rgb(255, 187, 0);
     font-size: 40px;
 }
-
+.gym-right{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 
 
 
@@ -87,6 +91,10 @@ phone:600px;
     .barlinks{
         font-size: 15px;
     }
+    section p{
+        text-align: center;
+        color: #B9C7FF;
+    }
 }
 @media (orientation: portrait) {
     .logo-color{
@@ -97,5 +105,9 @@ phone:600px;
     }
     .barlinks{
         font-size: 15px;
+    }
+    section p{
+        text-align: center;
+        color: #B9C7FF;
     }
 }
