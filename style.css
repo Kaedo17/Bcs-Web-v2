@@ -44,7 +44,9 @@ section h1{
     margin-left: 50px;
     margin-right: 50px;
 }
-
+.green-bcs{
+    padding-top: 5%;
+}
 
 
 
@@ -73,6 +75,7 @@ phone:600px;
     section h1{
         margin-top: 10%;
     }
+    
 }
 @media (max-width: 768px) {
     .logo-color{
@@ -101,6 +104,12 @@ phone:600px;
     .rate-desc{
         font-size: 20px;
     }
+    .green-bcs{
+        padding-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
 }
 @media (orientation: landscape) {
     .logo-color{
@@ -118,6 +127,9 @@ phone:600px;
     }
     .gym-right{
         width: 50%;
+    }
+    .top-banner{
+        margin-bottom: 0%;
     }
 }
 @media (orientation: portrait) {
@@ -142,5 +154,11 @@ phone:600px;
     }
     .top-banner{
         margin-bottom: -30%;
+    }
+    .green-bcs{
+        padding-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
     }
 }
